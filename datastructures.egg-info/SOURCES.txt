@@ -1,0 +1,9 @@
+README.md
+setup.py
+datastructures/__init__.py
+datastructures/queue.py
+datastructures/stack.py
+datastructures.egg-info/PKG-INFO
+datastructures.egg-info/SOURCES.txt
+datastructures.egg-info/dependency_links.txt
+datastructures.egg-info/top_level.txt
