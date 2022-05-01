@@ -60,6 +60,15 @@ class LinkedList:
             cur = cur.get_next()
         return elements
 
+    def search(self, data):
+        if not self._get_head():
+            raise Exception("Empty list cannot be searched")
+        cur = self._get_head()
+        while cur:
+            if cur.get_val() == data:
+                return True
+        return False
+
 
 
 
