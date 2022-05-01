@@ -9,6 +9,7 @@ The basic operations for the following data structures are currently implemented
 3. Linked lists
 
 The operations implemeted for each of these data structures are as follows
+
 *Stacks*
 - Stack push: Push an element to the top of the stack
 - Stack pop: Pop the top element from the stack
