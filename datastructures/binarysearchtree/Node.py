@@ -21,6 +21,4 @@ class Node:
 
     def get_right(self):
         return self._right
-
-
     
