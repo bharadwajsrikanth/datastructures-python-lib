@@ -22,4 +22,16 @@ def test_binarysearchtree_does_not_have_node():
     bst.insert_node(20)
     if not bst.has_key(30):
         assert True
+    else:
+        assert False
 
+
+def test_binarysearchtree_delete_node():
+    bst = BinarySearchTree(10)
+    bst.insert_node(5)
+    bst.insert_node(20)
+    bst.delete_node(20)
+    if not bst.has_key(20):
+        assert True
+    else:
+        assert False
